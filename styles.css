@@ -112,3 +112,9 @@ h2 {
 .description {
   font-size: 18px;
 }
+
+.it-desc {
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
