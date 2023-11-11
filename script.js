@@ -34,6 +34,10 @@ function dogpage() {
   window.open("https://aidanlenahan.github.io/clock", "_blank");
 }
 
+function fb() {
+  window.open("https://facebook.com/lenahanaidan", "_blank");
+}
+
 function clock() {
   window.open("https://aidanlenahan.github.io/clock", "_blank");
 }
