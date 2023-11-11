@@ -31,7 +31,7 @@ function homep() {
 }
 
 function dogpage() {
-  window.open("https://aidanlenahan.github.io/clock", "_blank");
+  window.open("https://aidanlenahan.com/dog-walking-for-the-new-jersey-peninsula", "_blank");
 }
 
 function fb() {
