@@ -26,6 +26,14 @@ function email() {
   window.location.href = "mailto:aidan@aidanlenahan.com";
 }
 
+function homep() {
+  window.open("https://aidanlenahan.com", "_blank");
+}
+
+function dogpage() {
+  window.open("https://aidanlenahan.github.io/clock", "_blank");
+}
+
 function clock() {
   window.open("https://aidanlenahan.github.io/clock", "_blank");
 }
