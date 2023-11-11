@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Landing Page for Aidan Lenahan</title>
+</head>
+<body>
+
+  <header>
+    <h1>Aidan Lenahan's Landing page</h1>
+  </header>
+
+  <div class="content-container">
+    <div class="left-container">
+      <h3>Dogs Walked</h3>
+      <div class="image-slider">
+        <button class="slider-btn" onclick="prevSlide()">&#10094;</button>
+        <img class="slide" src="./img/rosco.jpeg" alt="Rosco">
+        <img class="slide" src="./img/stella.jpg" alt="Stella">
+        <img class="slide" src="./img/reef.jpg" alt="Reef">
+        <img class="slide" src="./img/mak.jpeg" alt="Mak">
+        <img class="slide" src="./img/makreef.jpeg" alt="Mak and Reef">
+        <img class="slide" src="./img/lady.jpeg" alt="Lady">
+        <img class="slide" src="./img/lola.jpg" alt="Lola">
+        <button class="slider-btn" onclick="nextSlide()">&#10095;</button>
+      </div>
+
+      <div class="carousel-text">
+        <p id="carousel-message"></p>
+      </div>
+
+      <button class="custom-btn" onclick="prevSlide()">Previous</button>
+      <button class="custom-btn" onclick="nextSlide()">Next</button>
+
+      <p class="description">Above, you can see a few of the dogs I've walked over the years. I haven't taken pictures of all of them, so some aren't displayed. The dogs in these pictures all are very happy with me, and hopefully your dog will be too!<br><br>Email me for dog walking, and I'll display your dog up here too!<br></p>
+      <button class="custom-btn" onclick="email()">Email me!</button>
+    </div>
+
+    <div class="right-container">
+      <br>
+      <h4 class="small-title">Website navigation</h4>
+      <button class="nav-btn">Homepage</button>
+      <button class="nav-btn">Dog walking</button>
+      <br><br><br><br><br><br>
+      <h4 class="small-title"><br><b>Technology projects of mine</b></h4>
+      <button class="nav-btn" onclick="clock()">4-function clock</button>
+      <button class="nav-btn" onclick="dvd()">Bouncing DVD Logo</button>
+      <button class="nav-btn" onclick="github()">My Github profile</button>
+      
+      <div class="button-desc-container">
+        <p class="button-desc">To go back to aidanlenahan.com, click the homepage button.<br>To go to the dog walking page of my website, click the second button.<br><br>Email me at <a href="mailto:aidan@aidanlenahan.com">aidan@aidanlenahan.com</a></p>
+      </div>
+      
+      <br><br><br>
+      
+      <div class="signed-footer-container">
+        <br><p><em>Coded completely by Aidan Lenahan, November 2023.<br><a href="https://example.com">Terms of service</a></em></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

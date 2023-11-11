@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.content-container {
+  display: flex;
+}
+
+.left-container {
+  width: 33%;
+  padding: 20px;
+}
+
+h2 {
+  margin: 0;
+}
+
+.image-slider {
+  width: 65%; /* Reduced the carousel width by 35% */
+  overflow: hidden;
+  position: relative;
+}
+
+.slide {
+  width: 100%;
+  display: none;
+}
+
+.slider-btn {
+  display: none;
+}
+
+.carousel-text {
+  text-align: left;
+  font-size: 18px;
+}
+
+.custom-btn {
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: grey;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.custom-btn:hover {
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.button-desc-container {
+  margin: 10px;
+  padding: 10px;
+  font-size: 25px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.button-desc {
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.signed-footer-container {
+  margin: 10px;
+  padding: 10px;
+  font-size: 25px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 19px;
+  color: grey;
+}
+
+.nav-btn {
+  margin: 10px;
+  padding: 10px;
+  font-size: 26px;
+  background-color: grey;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.nav-btn:hover {
+  background-color: white;
+  color: black;
+  font-size: 32.5px;
+}
+.small-title {
+  margin: 10px;
+  padding: 10px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+.description {
+  font-size: 18px;
+}
