@@ -127,3 +127,8 @@ h2 {
   border: none;
   cursor: pointer;
 }
+.it-buttons:hover {
+  background-color: white;
+  color: black;
+  font-size: 21px;
+}
