@@ -84,6 +84,6 @@ function updateCarouselMessage(index) {
 }
 
 
-// Initial setup
+// Initial setup 
 showSlide(currentIndex);
 
