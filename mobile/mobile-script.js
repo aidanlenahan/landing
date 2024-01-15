@@ -49,7 +49,9 @@ function dvd() {
 function github() {
   window.open("https://github.com/aidanlenahan", "_blank");
 }
-
+function back() {
+  window.location.href = "../index.html";
+}
 function updateCarouselMessage(index) {
   switch (index) {
     case 0:
