@@ -75,6 +75,9 @@ function updateCarouselMessage(index) {
     case 6:
       carouselMessage.innerHTML = "This is my dog, <em>Lola.</em> She gets very jealous when she smells dogs on me!";
       break;
+    case 7:
+      carouselMessage.innerHTML = "This <em>Ziggy!</em> We tend to go for late night walks.";
+      break;
     default:
       carouselMessage.innerHTML = "<b>No dog displayed! Try reloading the page.<b/>";
   }
