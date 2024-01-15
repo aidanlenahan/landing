@@ -136,3 +136,13 @@ h2 {
   color: black;
   font-size: 21px;
 }
+@media (max-width: 768px) {
+  .left-container, .right-container {
+    width: 100%; /* elements take full width on smaller screens */
+  }
+
+  .image-slider {
+    width: 100%; /* Carousel takes full width */
+  }
+
+}
