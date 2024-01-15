@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="mobile-styles.css">
+  <title>Landing Page for Aidan Lenahan</title>
+</head>
+<body>
+
+  <header>
+    <h1>Aidan Lenahan's Landing page</h1>
+  </header>
+
+  <div class="content-container">
+    <div class="left-container">
+      <h3>Dogs Walked</h3>
+      <div class="image-slider">
+        <button class="slider-btn" onclick="prevSlide()">&#10094;</button>
+        <img class="slide" src="./img/rosco.jpeg" alt="Rosco">
+        <img class="slide" src="./img/stella.jpg" alt="Stella">
+        <img class="slide" src="./img/reef.jpg" alt="Reef">
+        <img class="slide" src="./img/mak.jpeg" alt="Mak">
+        <img class="slide" src="./img/makreef.jpeg" alt="Mak and Reef">
+        <img class="slide" src="./img/lady.jpeg" alt="Lady">
+        <img class="slide" src="./img/lola.jpg" alt="Lola">
+        <button class="slider-btn" onclick="nextSlide()">&#10095;</button>
+      </div>
+
+      <div class="carousel-text">
+        <p id="carousel-message"></p>
+      </div>
+
+      <button class="custom-btn" onclick="prevSlide()">Previous</button>
+      <button class="custom-btn" onclick="nextSlide()">Next</button>
+
+      <p class="description">Above, you can see a few of the dogs I've walked over the years. I haven't taken pictures of all of them, so some aren't displayed. The dogs in these pictures all are very happy with me, and hopefully your dog will be too!<br><br>Email me for dog walking, and I'll display your dog up here too!<br></p>
+      <button class="custom-btn" onclick="email()">Email me!</button>
+    </div>
+
+    <div class="right-container">
+      <br>
+      <h4 class="small-title">Website navigation</h4>
+      <button class="nav-btn" onclick="homep()">Homepage</button>
+      <button class="nav-btn" onclick="dogpage()">Dog walking</button>
+      <button class="nav-btn" onclick="fb()">Facebook</button>
+      <br><br><br>
+      <p class="it-desc"><b>A bit about me:</b><br>I'm an honors student at Red Bank Regional in the IT academy.<br>I'm a lacrosse player, a runner, and a dog walker.<br>I've been obsessed with technology for as long as I can remember.<br><b>Below are a couple of tech projects I've done:</b><br></p>
+      <button class="it-buttons" onclick="clock()">4-function clock</button>
+      <button class="it-buttons" onclick="dvd()">Bouncing DVD Logo</button>
+      <button class="it-buttons" onclick="github()">My Github profile</button>
+      
+      
+      <div class="signed-footer-container">
+        <p><em>Coded completely by Aidan Lenahan, November 2023.<br><a href="./tos.html">Terms of service</a></em></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="mobile-script.js"></script>
+</body>
+</html>
+
+<!-- Last edited 15:51:43 January 15, 2024 -->
