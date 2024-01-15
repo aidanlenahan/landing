@@ -1,5 +1,5 @@
 //will generate random number 1-5
-let currentIndex = Math.floor(Math.random() * 7);
+let currentIndex = Math.floor(Math.random() * 8);
 const slides = document.querySelectorAll('.slide');
 const carouselMessage = document.getElementById('carousel-message');
 
