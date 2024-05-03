@@ -1,3 +1,3 @@
-Landing page for aidanlenahan.com, acts as navigation.
+Landing page for dog walking business, acts as flyer.
 
-To access it, go to aidanlenahan.github.io/landing/index.html
+To access it, go to aidanlenahan.github.io/landing/
