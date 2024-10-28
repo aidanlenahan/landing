@@ -3,52 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AL Dog Walking</title>
-  <style>
-    body {
-      background-color: #000;
-      color: #fff;
-      font-family: sans-serif;
-      margin: 0;
-      padding: 10px;
-      text-align: center;
-      font-size: 1.4em;
-    }
-    h1 {
-      font-size: 2em;
-      margin-bottom: 20px;
-    }
-    button {
-      display: inline-block;
-      padding: 10px 20px;
-      margin: 10px;
-      border: 1px solid #fff;
-      background-color: #000;
-      color: #fff;
-      font-size: 1.4em;
-      cursor: pointer;
-    }
-    .mobile-icon {
-      width: 65px;
-      height: 65px;
-      display: inline-block;
-      vertical-align: middle;
-      margin-right: 10px;
-    }
-    .laptop-icon {
-      width: 65px;
-      height: 65px;
-      display: inline-block;
-      vertical-align: middle;
-      margin-right: 10px;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
+  <title>Lenahan Dog Services</title>
 </head>
 <body>
-  <h1>Aidan Lenahan Dog Walking</h1>
-  <h3>Choose your viewing preferences:</h3>
-  <p>For slow connections, try <a href="./simplified.html">this</a> page.</p>
-  <button onclick="window.location.href='./mobile/mobile.html'" style="background-color: #808080; width: 210px; height: 210px; font-size: 25px;"><img src="./img/phone-transp.png" class="mobile-icon" alt="Mobile Device"><br>Mobile</button>
-  <button onclick="window.location.href='./desktop/desktop.html'" style="background-color: #808080; width: 210px; height: 210px; font-size: 25px;"><img src="./img/pc-transp.png" class="laptop-icon" alt="Laptop/PC"><br>Laptop</button>
+
+  <header>
+    <h1>Lenahan Dog Services</h1>
+  </header>
+
+  <main class="content-container">
+    <section class="left-container">
+      <h3>Dogs Walked</h3>
+      <div class="collage-container">
+        <!-- Collage images will be injected here by JavaScript -->
+      </div>
+      <p class="description">
+        Above, you can see a selection of the dogs I've walked over the years. The dogs in these pictures all are very happy with me, and hopefully, your dog will be too! To see other dogs, <a href="./index.html">reload</a> this page.<br><br>Email me for dog walking, and I'll display your dog up here too!<br>
+      </p>
+      <div class="button-container">
+         <button class="custom-btn" onclick="email()">Email me!</button>
+        <button class="nav-btn" onclick="fb()">Facebook</button>
+      </div>
+
+    </section>
+
+    <aside class="right-container">
+      <h4 class="it-desc"><b>A bit about me:</b></h4><p>I'm an honors student at Red Bank Regional in the IT academy.
+	I'm a lacrosse player, a varsity runner, and a dog walker.
+        I have played the piano for around 10 years now, songs ranging from classic rock to classical.
+	I've had a love of technology for as long as I can remember, which has now turned into a career path. 
+      <h4 class="it-desc"><b>Experience:</b></h4>
+      <p>I have walked close to 30 dogs now. I've been walking dogs since
+      2021 now, and love every moment of it. It's very rewarding, as I truely
+      have a love for dogs. I've walked dogs as heavy as 120 lbs, and as light as 10 lbs. Reviews coming soon! <br><br></p>
+      <div class="signed-footer-container">
+        <p><em>Coded by Aidan Lenahan, October 2024.</em></p>
+      </div>
+    </aside>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>

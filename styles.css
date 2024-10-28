@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0b0b0b;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.left-container {
+  flex: 1 1 55%;
+  padding: 20px;
+  min-width: 300px;
+}
+
+.right-container {
+  flex: 1 1 35%;
+  padding: 20px;
+  min-width: 250px;
+}
+
+.collage-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Responsive grid layout */
+  gap: 10px; /* Space between images */
+}
+
+.collage-image {
+  width: 100%; /* Make images responsive */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.custom-btn, .nav-btn {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 18px;
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.custom-btn:hover, .nav-btn:hover {
+  background-color: white;
+  color: black;
+  font-size: 20px;
+}
+
+.small-title {
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+.description, .it-desc {
+  font-size: 16px;
+}
+
+.signed-footer-container {
+  margin-top: 20px;
+  text-align: center;
+}
+.button-container {
+  display: flex;           /* Use flexbox */
+  gap: 10px;              /* Space between buttons */
+  margin-top: 10px;       /* Space above the buttons */
+}
