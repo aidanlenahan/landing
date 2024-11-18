@@ -1,0 +1,2 @@
+# My local dog business landing page
+I've been working on this site for quite some time now, and it has brought in around 5-10 clients. My intention with the site was to be more professional. Many other local dog business offer extremely fancy services such as real-time GPS tracking, real-time updates, and more fancy (and paid) features. I thought that I could get a leg up with a website at a minimum, given that I'm slightly proficient in HTML, CSS, and JS.
