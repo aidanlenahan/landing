@@ -5,13 +5,13 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #0b0b0b;
+  background-color: #58646B;
   color: #ffffff;
   font-family: Arial, sans-serif;
 }
 
 header {
-  background-color: #333;
+  background-color: #367C9C;
   padding: 20px;
   text-align: center;
 }
@@ -54,7 +54,7 @@ h1 {
   margin: 10px 0;
   padding: 10px;
   font-size: 18px;
-  background-color: grey;
+  background-color:#367C9C;
   color: white;
   border: none;
   border-radius: 5px;

@@ -1,0 +1,6 @@
+note
+
+all pictures are 4:3 vertical
+
+to make a vertically unfit picture fit this ratio, multiply width by 1.33 and change height to that number
+to make a horizontally unfit picture fit this ratio, divide height by 1.33 and change width to that number

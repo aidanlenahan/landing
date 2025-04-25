@@ -11,7 +11,13 @@ function generateCollage() {
     `${imageDir}/makreef.jpeg`,
     `${imageDir}/lady.jpeg`,
     `${imageDir}/lola.jpg`,
-    `${imageDir}/ziggy.jpg`
+    `${imageDir}/ziggy.jpg` ,
+    `${imageDir}/bruno.jpg`,
+    `${imageDir}/charlie.jpeg`,
+    `${imageDir}/chuck.jpg`,
+    `${imageDir}/nala.jpg`,
+    `${imageDir}/nalaz.jpg`,
+    `${imageDir}/stella1.jpg`
   ];
 
   const collageContainer = document.querySelector('.collage-container');
